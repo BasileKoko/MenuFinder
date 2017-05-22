@@ -1,0 +1,5 @@
+<h1> Home Page </h1>
+<% @menus.each do |menu| %>
+  <%=menu[:title]%><br>
+  <%=image_tag menu[:image]%><br>
+<%end%>
